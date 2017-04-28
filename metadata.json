@@ -1,5 +1,5 @@
 {
-  "dataset-site-url": "https://tabletennis365.github.io/",
+  "dataset-site-url": "http://data.tabletennis365.com/",
   "title": "Table tennis club data",
   "description": "Club locations, contact details and information",
   "publisher-name": "Table Tennis England",
@@ -13,7 +13,7 @@
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "Table Tennis England",
-  "attribution-url": "https://tabletennis365.github.io/",
+  "attribution-url": "http://data.tabletennis365.com/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9edd7a22fdf4a0e2f0c8938c9\",\"lid\":\"89f767e781\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
