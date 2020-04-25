@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "Table tennis club data",
-      "id": "http://data.tabletennis365.com/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "http://data.tabletennis365.com/",
       "url": "http://data.tabletennis365.com/",
-      "description" : "Club locations, contact details and information; published using OpenActive RPDE v0.2.3.",
+      "name": "Table tennis club data",
+      "description": "Club locations, contact details and information; published using OpenActive RPDE v0.2.3.",
       "keywords":[
-         "Table Tennis",
-         "Ping Pong",
-         "OpenActive"
+          "Table Tennis",
+          "Ping Pong",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=0.2.3",
-        "contentUrl" : "https://www.tabletennis365.com/TableTennisEngland/API/OpenActive/v1/Clubs"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "https://www.tabletennis365.com/TableTennisEngland/API/OpenActive/v1/Clubs"
+        }
+      ],
+      "discussionUrl": "https://github.com/TableTennis365/opendata/issues",
+      "documentation": "https://github.com/TableTennis365/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "Table Tennis England",
-         "url": "https://www.tabletennisengland.co.uk",
-         "logo": "http://data.tabletennis365.com/images/logo.png"
+        "@type": "Organization",
+        "name": "Table Tennis England",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://data.tabletennis365.com/images/logo.png"
+        },
+        "url": "https://www.tabletennisengland.co.uk"
       },
-      "datePublished" : "2017-04-20T00:00:00.000Z"
+      "datePublished": "2017-04-20T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "http://data.tabletennis365.com/images/bg.jpg"
+      }
     }
     </script>
   </head>
